@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %} Update Event {% endblock title %}
+
+{% block content %}
+
+<p class="main-tag"> Update Event! </p>
+
+<form method="POST" class="form-container">
+    {{ form.hidden_tag() }}
+    
+    <label for="title">Title</label>
+    {{ form.title(size=30) }}
+
+    <label for="description">Description</label>
+    {{ form.description(rows=4, cols=50) }}
+
+    <label for="location">Location</label>
+    {{ form.location(size=30) }}
+
+    <button type="submit">Update Event</button>
+</form>
+
+{% endblock content %}

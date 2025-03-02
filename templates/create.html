@@ -1,0 +1,29 @@
+ {% extends "base.html" %}
+
+{% block title %} Create Event {% endblock title %}
+
+{% block content %}
+
+<p class='main-tag'> Create New Event! </p>
+
+<form method="POST" class="form-container">
+    {{form.hidden_tag()}}
+    <div>
+        {{form.title.label}}
+        {{form.title}}
+    </div>
+    <div>
+        {{form.description.label}}
+        {{form.description}}
+    </div>
+    <div>
+        {{form.location.label}}
+        {{form.location}}
+    </div>
+    <div>
+        <button type='submit', class='f-button'>Create</button>
+    </div>
+
+</form>
+
+{% endblock content %}

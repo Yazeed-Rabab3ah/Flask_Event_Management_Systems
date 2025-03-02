@@ -1,0 +1,25 @@
+ {% extends "base.html" %}
+
+{% block title %} Home {% endblock title %} 
+
+{% block content %} 
+
+<p class='main-tag'>Home</p>
+<hr/>
+
+
+<a href="{{url_for('create_events')}}"><button class='f-button'>Create new Event</button></a>
+
+<p class='styled-text'>Events:</p>
+{% for event in events%}
+<div class="event-container">
+   <h1 ><a class="list-event" href="{{url_for('event_details',event_id=event.id)}}">{{event.title}} </a></h1 >
+       📍{{ event.location}}
+   </div>
+
+   
+    
+{% endfor %}    
+
+
+{% endblock content %} 
