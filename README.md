@@ -76,3 +76,13 @@ Ensure you have **Python 3.x** installed. You will also need **pip** to install 
 - **Delete Event**: Remove an event by clicking the delete button and confirming the action.
 
 ---
+## 🎯 Screenshots
+![Image](https://github.com/user-attachments/assets/39387787-def5-487c-b246-1ea15f2d61df)
+
+---
+
+![Image](https://github.com/user-attachments/assets/2a4f4a09-bcae-449f-9f8a-af20b9571f9b)
+
+---
+
+![Image](https://github.com/user-attachments/assets/47b07041-66af-44d5-90db-26dbc060778f)
